@@ -1,0 +1,40 @@
+{
+	"name": "sf-layout-to-excel",
+	"version": "1.0.0",
+	"description": "A utility to fetch Salesforce layout details and export them to Excel files.",
+	"type": "module",
+	"main": "./src/layoutFields.js",
+	"bin": {
+		"sf-layout-to-excel": "./src/layoutFields.js"
+	},
+	"scripts": {
+		"start": "node ./src/layoutFields.js"
+	},
+	"keywords": [
+		"Salesforce",
+		"layout",
+		"Excel",
+		"API",
+		"sf",
+		"sfdx",
+		"sf-cli",
+		"sfdx-cli",
+		"pagelayout",
+		"page",
+		"layout",
+		"field",
+		"extract fields",
+		"sf-layout-to-excel",
+		"layout-to-excel"
+	],
+	"author": "gauravtrivedi",
+	"bugs": "https://github.com/Gaurav-Trivedi/sf-extract-layout-field/issues",
+	"homepage": "https://github.com/Gaurav-Trivedi/sf-extract-layout-field",
+	"repository": "Gaurav-Trivedi/sf-extract-layout-field",
+	"license": "ISC",
+	"dependencies": {
+		"npm": "^10.8.1",
+		"path": "^0.12.7",
+		"xlsx": "^0.17.4"
+	}
+}
